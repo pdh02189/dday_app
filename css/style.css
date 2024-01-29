@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {width: 100%; height: 100vh; overflow: hidden;}
+header {position: fixed; top: 0; left: 0; right: 0; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; background-color: #db4767;}
+header h1 {color: #fff; font-size: 24px; font-weight: 700;}
+main {width: 100%; height: calc(100vh - 60px); padding: 100px 20px 40px; overflow-y: auto;}
+.visual {width: 100%; display: flex; justify-content: center;}
+.visual img {width: 160px;}
+form {width: 100%; max-width: 600px; display: flex; flex-direction: column; margin: 0 auto; margin-top: 40px;}
+.writeBox {width: 100%; display: flex; flex-direction: column; margin-bottom: 40px;}
+.writeBox p {width: 100%; font-size: 14px; color: #999; margin-bottom: 5px;}
+.writeBox input {width: auto; height: 40px; border: none; border-bottom: 1px solid #999; outline: none; font-size: 16px;}
+#firstDate {width: 100%;}
+.inputWrap {width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;}
+.inputWrap input {width: calc(50% - 20px);}
+#resultBtn {width: 100%; height: 50px; border-radius: 25px; background-color: #db4767; color: #fff; font-size: 16px; font-weight: 600; border: none;}
+.result {position: absolute; top: 260px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 600px; height: calc(100vh - 260px); background: #fff; padding: 40px 20px;}
+.color {font-size: 28px; color: #e75172; display: flex; align-items: center; margin-bottom: 10px;}
+.color span {font-size: inherit; font-weight: 600; padding: 0 10px;}
+.p2 {font-size: 20px;}
+.imgWrap {width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;}
+.imgWrap img {width: 200px;}
