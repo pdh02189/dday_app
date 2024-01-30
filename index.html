@@ -7,6 +7,15 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DLTENMKH61"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DLTENMKH61');
+    </script>
 </head>
 <body>
     <!-- <main>
@@ -25,14 +34,14 @@
         <form autocomplete="off" id="dday_form">
             <div class="writeBox">
                 <p>사귄 날짜를 입력하세요 (ex. 2024.01.01)</p>
-                <input type="date" id="firstDate">
+                <input type="date" id="firstDate" required>
             </div>
             <div class="writeBox">
                 <p>이름을 입력하세요</p>
                 <div class="inputWrap">
-                    <input type="text" placeholder="이름 입력" id="name1">
+                    <input type="text" placeholder="이름 입력" id="name1" required>
                     <span>❤</span>
-                    <input type="text" placeholder="이름 입력" id="name2">
+                    <input type="text" placeholder="이름 입력" id="name2" required>
                 </div>
             </div>
             <button id="resultBtn">우리 만난지 며칠째?</button>
